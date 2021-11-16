@@ -1,0 +1,9 @@
+import static io.restassured.RestAssured.baseURI;
+public class TestNGTest {
+    @Test
+    public void meuPrimeiroTest(){
+    baseURI = "http://petstore.swagger.io/v2";
+
+
+    }
+}
